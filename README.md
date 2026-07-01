@@ -40,6 +40,11 @@ A RAM memory emulator operated on by commands written in C++.
     /include # interfaces
     /src # source for apps
     /tests # main.cpp
+## Important Links
+Architecture of allocators: https://people.cs.umass.edu/~emery/pubs/berger-pldi2001.pdf
+Doug Lea's allocator: https://gee.cs.oswego.edu/dl/html/malloc.html
+Doug Lee C++ learnings: https://gee.cs.oswego.edu/dl/mood/C++notes.html
+Doug Lee C++ Reports: https://gee.cs.oswego.edu/dl/papers/C++Report89.txt
 
 <!--------Links--->
 [1]:https://www.youtube.com/watch?v=mYBxnojY-JA
