@@ -3,7 +3,6 @@
 
 #include "core.h"
 
-#include <cstdint>
 
 namespace mallocsim {
 class Bump {
