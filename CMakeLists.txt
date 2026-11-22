@@ -12,7 +12,8 @@ file(GLOB_RECURSE PROJECT_HEADERS CONFIGURE_DEPENDS
 add_executable(MyApp
         src/main.cpp
         ${PROJECT_HEADERS}
-        src/core.h
+
+
 )
 
 

@@ -34,8 +34,8 @@ namespace mallocsim {
       // pop from list.
       n->next =head_;
       head_ = n;
-
     }
+    bool owns(const void *p) const noexcept  {return backing_.owns(p);}
 
   };
 
